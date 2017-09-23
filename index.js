@@ -20,8 +20,7 @@ const getPreviousUnixTimeStamp = (date = moment(new Date()).unix()) => {
 
 const db = require('./db');
 
-app.ws('/echo', function(ws, req) {
-});
+app.ws('/subscribe', function(ws, req) {});
 
 app.get('/', (req, res) => {
   const currentDate = moment(new Date()).unix();
