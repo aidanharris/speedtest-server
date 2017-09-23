@@ -1,0 +1,4 @@
+speedtests
+*.bak
+node_modules
+

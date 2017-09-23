@@ -1,0 +1,20 @@
+{
+  "name": "speedtest-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aidan Harris <mail@aidanharris.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-ws": "^3.0.0",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "pouchdb-adapter-node-websql": "^6.3.4",
+    "pouchdb-node": "^6.3.4",
+    "socket.io": "^2.0.3",
+    "uuid": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
