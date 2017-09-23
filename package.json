@@ -10,9 +10,7 @@
     "moment": "^2.18.1",
     "morgan": "^1.8.2",
     "pouchdb-adapter-node-websql": "^6.3.4",
-    "pouchdb-node": "^6.3.4",
-    "socket.io": "^2.0.3",
-    "uuid": "^3.1.0"
+    "pouchdb-node": "^6.3.4"
   },
   "scripts": {
     "start": "node index.js"
